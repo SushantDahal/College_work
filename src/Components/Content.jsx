@@ -91,7 +91,7 @@ function Content() {
               <input type="text" className="max-w-[190px] py-1" />
               <AiOutlineSearch
                 size={32}
-                className="bg-blue-700 my-2 rounded-r-[4px] text-red-800 min-w-[30px] py-1"
+                className="bg-blue-500 my-2 rounded-r-[4px] text-white min-w-[30px] py-1"
               />
             </div>
             <div className="ml-6 py-6 text-[14px]" id="Blog">
