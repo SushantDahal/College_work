@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col items-center my-8 text-gray-600">
           <h1 className="text-2xl md:text-4xl">HELLO! WELCOME TO BLOG</h1>
-          <small className="py-2">
+          <small className="py-2 text-center md:text-start">
             Pastry gummi bears gummies marzipan danish jelly beans chupa chups
             marshmallow
           </small>
