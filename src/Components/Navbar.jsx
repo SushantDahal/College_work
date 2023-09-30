@@ -7,7 +7,7 @@ function Navbar() {
     setNav(!nav);
   }
   return (
-    <div className="text-black cursor-pointer my-5  max-w-[1240px] mx-auto uppercase  ">
+    <div className="text-black cursor-pointer my-5  max-w-[1240px] min-w-[360px] mx-auto uppercase  ">
       <div
         className="mx-4 bg-white h-20 rounded-md flex justify-between items-center   "
         id="Navbar"

@@ -11,6 +11,10 @@
 body {
   background-color: hsl(0, 0%, 90%);
 }
+#Icon div:hover {
+  background-color: rgb(24, 135, 150);
+  transition: 0.2s all ease;
+}
 #Navbar li:hover {
   background-color: hsl(0, 0%, 90%);
   transition: 0.2s ease-in;
