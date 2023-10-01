@@ -89,42 +89,41 @@ function Comments() {
         <div className=" mx-6 p-2">
           <h1 className="text-[16px] text-gray-500 py-4">Leave a Comment</h1>
           <div className="grid md:grid-cols-2 gap-6 ">
-            <div className="   col-span-1">
+            <div className="   col-span-1 ">
               <div className="my-4">
                 <input
                   type="text"
                   placeholder="Name *"
-                  className="w-[90%] py-3 px-4 rounded-sm mx-2  outline-none"
+                  className=" md:w-[100%] w-[70%]  py-3 px-4 rounded-sm mx-2  outline-none"
                 />
               </div>
               <div>
                 <input
                   type="email"
                   placeholder="E-Mail *"
-                  className="w-[90%] py-3 px-4 rounded-sm mx-2  outline-none"
+                  className=" md:w-[100%] w-[70%] py-3 px-4 rounded-sm mx-2  outline-none"
                 />
               </div>
               <div className="my-4">
                 <input
                   type="text"
                   placeholder="yoursite.com"
-                  className="w-[90%] py-3 px-4 rounded-sm mx-2 outline-none"
+                  className=" md:w-[100%] w-[70%] py-3 px-4 rounded-sm mx-2 outline-none"
                 />
               </div>
               <small className="mx-2 text-gray-500 text-[15px]">
                 Field marked with * are mandatory !
               </small>
             </div>
-            <div className="">
+            <div>
               <textarea
                 name=""
                 id=""
-                cols="40"
                 rows="7"
-                className="rounded-md"
+                className="rounded-md w-[280px] md:w-[350px] mx-2"
               ></textarea>
               <div className="text-end mr-6">
-                <button className="bg-blue-500 px-4 py-1 text-center my-4 text-white rounded-md  w-[120px] ">
+                <button className="bg-blue-500 px-4 py-1 text-center my-4 mr-4 md:mr-0 text-white rounded-md  w-[120px] ">
                   Send it
                 </button>
               </div>

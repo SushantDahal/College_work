@@ -46,7 +46,7 @@ function Content() {
             <div className="bg-white p-2 rounded-md ">
               <div className="w-full mx-auto bg-gray-400 rounded-md  border-white h-[200px]"></div>
             </div>
-            <h1 className="text-blue-600 mt-4 mb-2">
+            <h1 className="text-blue-500 mt-4 mb-2">
               Caremels tootsie roll croissant chocolate
             </h1>
             <div>
@@ -123,36 +123,38 @@ function Content() {
               <h1 className="text-[18px] font-semibold text-gray-700 text-center md:text-start">
                 Blog Categories
               </h1>
-              <ul>
-                <li className="flex items-center pt-5 py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Web development</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">E-Commerce</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Brand Identity</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Web Design</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Mobile/Apps Development</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Web Marketing</label>
-                </li>
-                <li className="flex items-center py-1">
-                  <input type="radio" className="w-[10px]" />
-                  <label className="px-2">Flash/Flex Development</label>
-                </li>
-              </ul>
+              <div className="flex  justify-center md:justify-normal">
+                <ul>
+                  <li className="flex items-center pt-5 py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Web development</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">E-Commerce</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Brand Identity</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Web Design</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Mobile/Apps Development</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Web Marketing</label>
+                  </li>
+                  <li className="flex items-center py-1">
+                    <input type="radio" className="w-[10px]" />
+                    <label className="px-2">Flash/Flex Development</label>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="ml-6">
               <h1 className="font-bold pt-8 pb-4 text-center md:text-start">
@@ -191,9 +193,9 @@ function Content() {
                   <input type="radio" className="w-2 mx-2" />
                   <label className=" text-xs ">Icons</label>
                 </div>
-                <div className="bg-white py-1 rounded-r-lg flex items-center">
+                <div className=" py-1 rounded-r-lg flex items-center bg-blue-500 text-white">
                   <input type="radio" className="w-2 mx-2" />
-                  <label className=" text-[11px] ">interface</label>
+                  <label className=" text-[11px]  ">interface</label>
                 </div>
                 <div className="bg-white py-1 rounded-r-lg flex items-center">
                   <input type="radio" className="w-2 mx-2" />
